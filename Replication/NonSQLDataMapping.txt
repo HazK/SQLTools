@@ -1,0 +1,1 @@
+https://msdn.microsoft.com/en-gb/library/ms152760(v=sql.110).aspx
