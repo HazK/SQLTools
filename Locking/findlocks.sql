@@ -1,0 +1,1 @@
+sp_WhoIsActive @get_locks = 1
