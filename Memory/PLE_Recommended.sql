@@ -1,0 +1,1 @@
+(DataCacheSizeInGB/4GB *300)
