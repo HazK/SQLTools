@@ -1,0 +1,10 @@
+sp_Who2
+sp_WhoIsActive
+profiler
+os schedulers
+wait types
+execution plan (index + stats)
+perfmon
+sys.dm_io_virtual_file_stats
+sys.dm_exec_requests, connections, sessions, query_stats
+reads/writes latency, PLE, buffer hit cache

@@ -1,0 +1,18 @@
+---** This will open a command and initiate connection **---
+
+
+C:\Users\harrison.kirby>sqlcmd -S .\sqlexpress -U TestLogin -P driver -o "C:\TEm
+p\TempSQLCMD\CommandOutput_%date:~6,4%%date:~3,2%%date:~0,2%_%time:~0,2%%time:~3
+,2%.txt"
+
+
+--- ** Next right the SQL **---
+
+PRINT 'Test'
+GO
+
+-- Note how this is printed out to file
+
+--- ** Exec .sql script (with -i)** ----
+
+sqlcmd -S .\sqlexpress -U TestLogin -P driver -i "C:\Temp\TempSQLCMD\thecommand.sql" -o "C:\TEmp\TempSQLCMD\CommandOutput_%date:~6,4%%date:~3,2%%date:~0,2%_%time:~0,2%%time:~3,2%.txt"
